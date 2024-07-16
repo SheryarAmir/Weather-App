@@ -1,0 +1,102 @@
+.Weather {
+    display: flex;
+    flex-direction: column;
+    place-self: center;
+    padding: 40px;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.65);
+    transform: scale(1);
+    transition: transform 0.5s, box-shadow 0.5s;
+
+  
+}
+
+.Weather:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 54px 55px, rgba(0, 0, 0, 0.18) 0px -12px 30px, rgba(0, 0, 0, 0.18) 0px 4px 6px, rgba(0, 0, 0, 0.25) 0px 12px 13px, rgba(0, 0, 0, 0.15) 0px -3px 5px;
+}
+.Search-bar{
+    display: flex;
+    gap: 12px;
+    justify-content: space-evenly;
+}
+
+.Search-bar input{
+   
+    height: 50px;
+    outline: none;
+    border: none;
+    color: #626262; 
+    background-color:#ebfffc ;
+    padding-left:25px;
+    font-size: 18px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+
+
+.Search-bar img{
+ width: 50px; 
+ padding: 15px;
+ border-radius: 46%;  
+ background-color: #ebfffc;
+  cursor: pointer;
+  align-items: center;
+  text-align: center ;
+}
+
+
+.city-degree{
+    text-align: center;
+    align-items: center;
+    
+.weather-icon{
+    width: 150px;
+    margin: 30px 0px;
+}
+
+    
+}
+.degree{
+    
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+}
+
+.weather-data {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    color: white;
+    width: 90%;
+}
+
+.col {
+    display: flex;
+ align-items:start ;
+ gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
